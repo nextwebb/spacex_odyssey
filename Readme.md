@@ -19,7 +19,8 @@ the Falcon 1.
 * chai
 
 ## How to run the application
-Run **yarn** or **npm install** in your project root directory to generate the node module and install the necessary dependencies.
+Run 
+```yarn``` or ```npm install``` in your project root directory to generate the node module and install the necessary dependencies.
 
 You then run **yarn start** or **npm start** to run the app. Once the app is running you can test the endpoint on postman using this url http://localhost:3000 .
 
@@ -50,4 +51,4 @@ sample payload:
 }
 ~~~
 
-## Note: to run the test run **yarn test** or **npm test**
+## To run the test run ```yarn test``` or ```npm test```
