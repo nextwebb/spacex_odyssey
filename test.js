@@ -1,10 +1,10 @@
-const Wallet = require("./services/wallets");
-const Trip = require("./services/trips");
+const Wallet = require("./src/services/wallet");
+const Trip = require("./src/services/trip");
 const wallet = new Wallet();
 const trip = new Trip();
 const expect = require("chai").expect;
 
-describe("Studio 14 assessment test cases", () => {
+describe("Test all endpoints", () => {
   describe("Wallet Services test", () => {
     context("get wallet balance", () => {
       it("should return an object with key: amount", () => {
