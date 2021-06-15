@@ -1,0 +1,16 @@
+{
+  "name": "studio14",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Agboola <magboola@terragonltd.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1"
+  }
+}
